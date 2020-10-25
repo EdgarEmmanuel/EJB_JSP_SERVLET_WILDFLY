@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+             version="2.0">
+	<persistence-unit name="EJB_senForage" transaction-type="JTA">
+	<jta-data-source>java:/EJB_senForage</jta-data-source>
+		<class>module.entities.Client</class>
+		<class>module.entities.Village</class>
+		<class>module.entities.User</class>
+		<class>module.entities.Statut</class>
+		<properties>
+			<property name="javax.persistence.schema-generation.database.action" 
+			value="update"/>
+		</properties>
+	</persistence-unit>
+</persistence>

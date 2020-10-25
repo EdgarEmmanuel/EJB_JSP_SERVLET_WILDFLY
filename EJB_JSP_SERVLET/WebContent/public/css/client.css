@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+	--font:'Montserrat', sans-serif;
+	--primary-color:#48a7e0;
+}
+
+main form {
+	margin-left:400px;
+	width:35rem;
+	text-align:center;
+}
+
+main form input{
+	width:300px;
+	height:1rem;
+	border-radius:10px;
+	padding:10px 10px;
+	margin-top:30px;
+}
+
+
+main form select{
+	width:330px;
+	height:1rem;
+	padding:10p 10px ;
+	margin-top:20px;
+	
+}
+
+
+main form select option {
+	text-transform:uppercase;
+	font-family:var(--font);
+	color:black;
+	font-weight:bold;
+}
+
+main form input::placeholder{
+	font-family:var(--font);
+	text-transform:uppercase;
+}
+
+main form .buttons{
+	display:flex;
+	margin-top:40px;
+}
+
+main form .buttons input {
+	width:600px;
+	height:2rem;
+	border-radius:10px;
+	padding:10px 10px;
+	background:var(--primary-color);
+	border:1px solid var(--primary-color);
+	color:white;
+	font-weight:bold;
+	margin:0px 10px;
+	font-family:var(--font);
+}
+
+

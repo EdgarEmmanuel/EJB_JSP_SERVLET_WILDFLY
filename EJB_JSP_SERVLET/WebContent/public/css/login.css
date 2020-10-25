@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+	background:#48a7e0;
+}
+	
+.body_tert{
+		width:50rem;
+		height:30rem;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		background:white;
+		margin:20px 200px;
+		border-radius:10px;
+}
+
+.body_tert .right{
+	flex-basis:25%;
+	width:25rem;
+	height:20rem;
+	background:white;
+}
+
+.body_tert .right form {
+	margin-top:45px;
+}
+
+.body_tert .right form input:focus{
+	border:1px solid #48a7e0;
+}
+
+.body_tert .right form input[type="submit"]{
+	background-color:#48a7e0;
+	margin-top:20px;
+	color:white;
+	border:1px solid #48a7e0;
+	width:300px;
+	height:1rem;
+	padding:20px 20px 20px 20px;
+	cursor:pointer;
+}
+
+.body_tert .right form label{
+	font-weight:bold;
+	font-family: 'Montserrat', sans-serif;
+	margin-left:100px;
+	margin-top:5rem;
+}
+
+.body_tert .right form select{
+	width:300px;
+}
+
+.body_tert .right form input{
+	width:300px;
+	border:1px solid black;
+	border-radius:10px;
+	margin:0px 0px 30px 0px;
+	height:2rem;
+}
+
+.body_tert .right form input::placeholder{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.body_tert .right .message p{
+	color:red;
+	font-weight:bold;
+	font-family:'Montserrat', sans-serif;;
+}
+
+
+.body_tert .left{
+	flex-basis:25%;
+	width:25rem;
+	height:20rem;
+	background:white;
+	padding:0px 20px;
+}
+
+.body_tert .left img{
+	width:20rem;
+}
+
+
